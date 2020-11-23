@@ -1,2 +1,2 @@
 # Puttipong Lab
-## This repository contain Java lab file.
+## This repository contains Java lab and Homework file.
