@@ -1,0 +1,18 @@
+Class 
+- FlashSale
+
+Property
+- Product pic 
+- Product name 
+- Sold quantity
+- discount price
+- flash sale time
+- quantity
+
+Action
+- counting time
+- show amount of product sold
+- show discount price
+- show product picture
+- show product quantity
+- click to see more product info
