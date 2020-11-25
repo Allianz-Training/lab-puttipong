@@ -46,7 +46,7 @@ public class Driver {
 		System.out.println("Gold Service Discount Rate: " + discountRate.getServiceDiscountRate("Gold"));
 		System.out.println("Silver Service Discount Rate: " + discountRate.getServiceDiscountRate("Silver"));
 
-		Visit visitPremium = new Visit("PK", null);
+		Visit visitPremium = new Visit("Bas", null);
 		visitPremium.getCustomer().setMember(true);
 		visitPremium.getCustomer().setMemberType("Premium");
 		visitPremium.setServiceExpense(150);
@@ -54,7 +54,7 @@ public class Driver {
 		System.out.println(visitPremium);
 		System.out.println("Total Expense: " + visitPremium.getTotalExpense());
 
-		Visit visitGold = new Visit("Time", null);
+		Visit visitGold = new Visit("Hin", null);
 		visitGold.getCustomer().setMember(true);
 		visitGold.getCustomer().setMemberType("Gold");
 		visitGold.setServiceExpense(150);
@@ -62,7 +62,7 @@ public class Driver {
 		System.out.println(visitGold);
 		System.out.println("Total Expense: " + visitGold.getTotalExpense());
 
-		Visit visitSilver = new Visit("KP", null);
+		Visit visitSilver = new Visit("Max", null);
 		visitSilver.getCustomer().setMember(true);
 		visitSilver.getCustomer().setMemberType("Silver");
 		visitSilver.setServiceExpense(150);
@@ -70,7 +70,7 @@ public class Driver {
 		System.out.println(visitSilver);
 		System.out.println("Total Expense: " + visitSilver.getTotalExpense());
 
-		Visit visiter = new Visit("emiT", null);
+		Visit visiter = new Visit("Dream", null);
 		visiter.setServiceExpense(150);
 		visiter.setProductExpense(100);
 		System.out.println(visiter);
