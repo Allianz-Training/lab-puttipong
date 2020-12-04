@@ -1,0 +1,37 @@
+---------1--------------
+select DISTINCT S.sname 
+from Sailors S,
+	Reserves R,
+	Boats B
+Where S.sid = R.sid
+And	R.bid = B.bid
+
+------------2----------------
+
+select DISTINCT S.sid 
+from Sailors S,
+	Reserves R,
+	Boats B
+Where S.sid = R.sid
+And	R.bid = B.bid
+And B.Color = 'Red'
+
+------------3--------------
+
+select S.sname 
+from Sailors S,
+	Reserves R,
+	Boats B
+Where S.sid = R.sid
+And	R.bid = B.bid
+And B.Color = 'Red'
+
+-------4----------------
+
+select Distinct B.Color 
+from Sailors S,
+	Reserves R,
+	Boats B
+Where S.sid = R.sid
+And	R.bid = B.bid
+And S.sname = 'Lubber'
